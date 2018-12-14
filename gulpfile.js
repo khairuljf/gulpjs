@@ -7,6 +7,7 @@ const sourcemaps = require( 'gulp-sourcemaps' );
 
 var styleSRC = 'src/scss/style.scss';
 var  targetStyle= 'assets/css';
+
 var jsSRC = 'src/js/custom.js';
 var  targetjs= 'assets/js';
 
@@ -38,4 +39,7 @@ function js_cb(){
 }
 
 
-gulp.task('default', ['style','js']);
+gulp.task('default', function(){
+    js_cb();
+    sytleCB();
+});
