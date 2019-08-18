@@ -1,0 +1,20 @@
+html{
+    font-size: 16px;
+}
+body{
+    font-family: $poppins;
+    font-size: 1rem;
+    color: $body_color;
+}
+h1,h2,h3,h4,h5,h6{
+    color: $heading_color;
+}
+a{
+  &:hover{
+      text-decoration: none;
+  }
+}
+
+.card-bg {
+    background-color: $card_bg_color;
+}

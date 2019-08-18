@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,300i,400,400i,500,500i,600,600i,700,700i,800,900');
+@import "components/utility";
+@import "components/mixins";
+@import "partials/variables";
+@import "partials/base";
+@import "components/buttons";
+@import "partials/global";
+@import "partials/header";
+@import "partials/footer";
+
+body{
+    background: red;
+}

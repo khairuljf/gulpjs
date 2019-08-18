@@ -1,2 +1,0 @@
-# gulpjs practice files
-
